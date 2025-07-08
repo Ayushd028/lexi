@@ -47,13 +47,10 @@ function App() {
   }
 
   const handleCitationClick = (citation) => {
-    // Open PDF in new tab
+
     window.open(citation.link, "_blank")
 
-    // In a real implementation, you might also:
-    // - Scroll to specific paragraph
-    // - Highlight relevant text
-    // - Show a toast notification
+  
     console.log(`Opening ${citation.source} at ${citation.paragraph}`)
   }
 
